@@ -1,0 +1,16 @@
+URL,Page,Page2
+https://dull-ghost.localsite.io/,la page d'accueil (si elle n'est pas déjà ouverte),La page d'accueil
+https://dull-ghost.localsite.io/produit/ex/,"la fiche du produit ""Ex.""","La fiche du produit ""Ex."""
+https://dull-ghost.localsite.io/categorie-produit/sport/sports_exterieur/planche_a_roulettes/,"la page des produits associés à la catégorie ""Planche à roulettes""","La page des produits de la catégorie ""Planche à roulettes"""
+https://dull-ghost.localsite.io/etiquette-produit/vroum-vroum/,"la page des produits associés à l'étiquette ""Vroum-vroum""","La page des produits de l'étiquette ""Vroum-vroum"""
+https://dull-ghost.localsite.io/marque/louis-pasteur/,"la page des produits associés à la marque ""Louis Pasteur""","La page des produits de la marque ""Louis Pasteur"""
+https://dull-ghost.localsite.io/panier/,la page du panier,La page du panier
+https://dull-ghost.localsite.io/?s=&post_type=product&category=0,une page de résultats de recherche,Une page de résultats de recherche
+https://dull-ghost.localsite.io/commander/,la page de validation de commande,La page de validation de commande
+https://dull-ghost.localsite.io/mon-compte/,la page de profil (tableau de bord),La page du tableau de bord du profil
+https://dull-ghost.localsite.io/mon-compte/mes_commandes/,la page de l'historique de commandes du compte,La page de l'historique de commandes du compte
+https://dull-ghost.localsite.io/mon-compte/mes_telechargements/,la page de téléchargements du compte,La page de téléchargements du compte
+https://dull-ghost.localsite.io/mon-compte/mes_adresses/,la page des adresses (de facturation et de livraison) du compte,La page des adresses du compte
+https://dull-ghost.localsite.io/mon-compte/mes_adresses/facturation/,la page d'ajout d'une adresse de facturation au compte,La page d'ajout d'une adresse de facturation au compte
+https://dull-ghost.localsite.io/mon-compte/mes_adresses/livraison/,la page d'ajout d'une adresse de livraison au compte,La page d'ajout d'une adresse de livraison au compte
+https://dull-ghost.localsite.io/mon-compte/informations_personnelles/,la page des détails (informations personnelles) du compte,La page des détails du compte

@@ -2,11 +2,11 @@ import "cypress-real-events";
 
 describe("Suite de tests connexion", () => {
   beforeEach(() => {
-    cy.visit("https://landscape:somber@dull-ghost.localsite.io/");
+    cy.visit("http://sidewalk:elementary@smiling-glove.localsite.io/");
   });
 
   it("Connexion", () => {
-    // Placer son curseur sur l’icône en forme de buste dans le bandeau en haut de la page https://dull-ghost.localsite.io/
+    // Placer son curseur sur l’icône en forme de buste dans le bandeau en haut de la page http://sidewalk:elementary@smiling-glove.localsite.io/
     cy.get(".icofont-user-alt-4").realHover();
     // Cliquer sur l’item Se déconnecter
     cy.get(
@@ -25,8 +25,17 @@ describe("Suite de tests connexion", () => {
         "have.text",
         "\n\tBonjour " +
           users.user.name +
-          " (vous n’êtes pas Anne WALCH ? Déconnexion)"
+          " (vous n’êtes pas " + users.user.name + " ? Déconnexion)"
       );
     });
   });
+
+  xit("Présence de bouton d'accès à barre de recherche (utilisateur connecté)", () => {
+// à faire
+  })
+
+it("Accès à fiche produit via son image", () => {
+  // Localiser le produit "" dans la liste de produits.
+})
+
 });
